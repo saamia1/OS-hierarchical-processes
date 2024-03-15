@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a distributed approach to generate prime numbers within a specified range. It uses multiple processes to divide the workload, enhancing performance through parallel computation. The project consists of several key components, including a main controller (`main.c`), delegator (`delegator.c` and `delegator.h`), worker (`worker.c` and `worker.h`), and a prime number calculation module (`prime.c`). It employs inter-process communication through pipes and signals to manage and synchronize tasks across different processes.
+This program leverages a distributed system to efficiently generate prime numbers within a designated range. By allocating tasks among multiple processes, it achieves parallel processing, significantly boosting performance. The architecture encompasses several core components: a central controller (main.c), a task delegator (`delegator.c` and `delegator.h`), individual workers (`worker.c` and `worker.h`), and a prime number computation unit (`prime.c`). It facilitates task management and coordination across various processes using pipes and signals for inter-process communication.
 
 ## Features
 
